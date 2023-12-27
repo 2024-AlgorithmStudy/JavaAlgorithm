@@ -10,7 +10,6 @@ public class SelfNumber {
             N = N - N % temp;
             temp*=10;
         }
-//        System.out.println(sum);
         return sum;
     }
     public static void main(String[] args) {
