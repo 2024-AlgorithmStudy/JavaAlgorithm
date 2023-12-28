@@ -114,7 +114,7 @@ public class B_15683 {
                     break;
 
                 if (graph[crow][ccol] == 0) {
-                    graph[crow][ccol] = 7;
+                    graph[crow][ccol] = 7; // # 을 숫자로 표시
                 }
             }
         }
