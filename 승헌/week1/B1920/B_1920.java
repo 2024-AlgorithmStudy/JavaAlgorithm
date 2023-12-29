@@ -57,3 +57,20 @@ public class B_1920 {
 
     }
 }
+
+/**
+ * < Comparator<T> 전달해주는 목적으로 사용하는 듯 ? >
+ * static <T> int	binarySearch(T[] a, T key, Comparator<? super T> c)
+ * - 자연정렬이 아닌 순서로 나열된 배열에서 검색하는 메서드
+ * ex) 텍스트1
+ *     텍스트10
+ *     텍스트100
+ *
+ *
+ *
+ * static int	binarySearch(Object[] a, Object key)
+ * - 자연 정렬이 된 배열에서 요소의 대소관계를 판단하고 검색하는 메서드 ( 정수 배열, 문자열 배열 )
+ * ex) 텍스트 1
+ *     텍스트 2
+ *     텍스트 3
+ * */
